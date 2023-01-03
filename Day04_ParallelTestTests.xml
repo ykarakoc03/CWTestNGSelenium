@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Paralel Test Suite" parallel="tests">
+
+
+    <test name="Paralel Tests 01" >
+        <classes>
+            <class name="clarusway.tests.Day01_C02_Priority"></class>
+        </classes>
+    </test>
+
+
+    <test name="Paralel Tests 02" >
+        <classes>
+            <class name="clarusway.tests.Day01_C03_DependsOn"></class>
+        </classes>
+    </test>
+
+
+    <test name="Paralel Tests 03" >
+        <classes>
+            <class name="clarusway.tests.Day01_C06_Description"></class>
+        </classes>
+    </test>
+
+
+</suite>

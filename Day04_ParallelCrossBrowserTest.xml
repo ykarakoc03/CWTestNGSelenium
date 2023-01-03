@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cross Browser Suite" parallel="tests" thread-count="2">
+
+    <test name="Cross Browser Tests Chrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="clarusway.tests.Day03_C06_CrossBrowser"></class>
+        </classes>
+    </test>
+    <test name="Cross Browser Tests Firefoz">
+        <parameter name="browser" value="firefox"></parameter>
+
+        <classes>
+            <class name="clarusway.tests.Day03_C06_CrossBrowser"></class>
+        </classes>
+    </test>
+
+</suite>
